@@ -1,10 +1,9 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+
 .equal-height-width {
     height: 0;
     padding-bottom: 70%;
-  }
-
-  .square-box{
-    max-width: 600px;
-    min-height: 600px;
-    border: 1px solid #333;
   }
