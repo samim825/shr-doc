@@ -18,39 +18,58 @@
     <div class="container-fluid">
 
         <section class="container p-4">
-            <h3>Health Data Architecture (HDA)</h3>
+            <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
         </section>
 
         <section class="container-fluid bg-dark d-grid align-items-center">
             <div class="container">
-                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <nav class="p-3 m-0" style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Identity Server</li>
+                        <li class="breadcrumb-item nav-item"><a class="text-white" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active text-white" aria-current="page">Identity Server</li>
                     </ol>
                 </nav>
             </div>
         </section>
 
-        <section class="container">
+        <section class="container-fluid">
+           <div class="container">
             <div class="row">
-                <div class="col-sm-3">
-
+                <div class="col-sm-2 p-3 bg-whitesmoke height-100">
+                    <div class="nav flex-column nav-pills me-3 h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Identity Server 1 </button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Identity Server 1</button>
+                        <button class="nav-link" id="v-pills-disabled-tab" data-bs-toggle="pill" data-bs-target="#v-pills-disabled" type="button" role="tab" aria-controls="v-pills-disabled" aria-selected="false">Identity Server 1</button>
+                    </div>
                 </div>
 
-                <div class="col-sm-9">
+                <div class="col-sm-10 p-3">
                     <h3>Identity Server</h3>
+
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+                          <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                      </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+                          <p>Identity Server 2  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aliquam. Nisi odit debitis ea quaerat quod! Possimus vitae voluptatum nemo natus cupiditate quod pariatur eligendi illo, mollitia ipsum doloribus at?</p>
+                      </div>
+                        <div class="tab-pane fade" id="v-pills-disabled" role="tabpanel" aria-labelledby="v-pills-disabled-tab" tabindex="0">
+                            <p>Identity Server 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel error debitis sequi laboriosam? Ea aliquid nobis reprehenderit possimus incidunt? Eum, corporis tempora! Repudiandae excepturi assumenda aliquid eum eveniet reiciendis enim.</p>
+                        </div>
+                    </div>
+
                 </div>
               
 
 
             </div>
 
+           </div>
         </section>
 
     </div>
 
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
