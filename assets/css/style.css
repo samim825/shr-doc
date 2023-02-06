@@ -22,7 +22,7 @@ body{
     color: black;
   }
 
-  a:hover div {
+  a:hover .equal-height-width {
     background-color: white; 
     color: tomato;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
