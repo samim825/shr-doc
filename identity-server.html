@@ -15,56 +15,52 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-
-        <section class="container p-4">
-            <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
-        </section>
-
-        <section class="container-fluid bg-dark">
-            <div class="container">
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb navbar navbar-expand-sm p-1">
-                            <li class="breadcrumb-item"><a class="text-white nav-item hover-item" href="index.html">Home</a></li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">Identity Server</li>
-                        </nav>
+  <section>
+        <div class="container-fluid">
+            <section class="container p-4">
+                <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
+            </section>
+        </div>
+    </section>
+    <section class="container-fluid bg-dark">
+        <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb navbar navbar-expand-sm pt-3 pb-3">
+                        <li class="breadcrumb-item fs-4"><a class="text-white nav-item hover-item" href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active text-white fs-4" aria-current="page">Identity Server</li>
+                    </nav>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container">
+        <div class="row">
+            <div class="col-sm-2 p-3 bg-whitesmoke height-100">
+                <div class="nav flex-column nav-pills me-3 h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="identity-server-1" data-bs-toggle="pill" data-bs-target="#identity-server-content-1" type="button" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </button>
+                    <button class="nav-link" id="identity-server-2" data-bs-toggle="pill" data-bs-target="#identity-server-content-2" type="button" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</button>
+                    <button class="nav-link" id="identity-server-3" data-bs-toggle="pill" data-bs-target="#identity-server-content-3" type="button" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Identity Server 3</button>
+                </div>
             </div>
-        </section>
 
-        <section class="container-fluid">
-           <div class="container">
-            <div class="row">
-                <div class="col-sm-2 p-3 bg-whitesmoke height-100">
-                    <div class="nav flex-column nav-pills me-3 h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <button class="nav-link active" id="identity-server-1" data-bs-toggle="pill" data-bs-target="#identity-server-content-1" type="button" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </button>
-                        <button class="nav-link" id="identity-server-2" data-bs-toggle="pill" data-bs-target="#identity-server-content-2" type="button" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</button>
-                        <button class="nav-link" id="identity-server-3" data-bs-toggle="pill" data-bs-target="#identity-server-content-3" type="button" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Identity Server 3</button>
+            <div class="col-sm-10 p-3">
+                <h3>Identity Server</h3>
+
+                <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="identity-server-content-1" role="tabpanel" aria-labelledby="identity-server-1" tabindex="0">
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                    </div>
+                    <div class="tab-pane fade" id="identity-server-content-2" role="tabpanel" aria-labelledby="identity-server-2" tabindex="0">
+                        <p>Identity Server 2  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aliquam. Nisi odit debitis ea quaerat quod! Possimus vitae voluptatum nemo natus cupiditate quod pariatur eligendi illo, mollitia ipsum doloribus at?</p>
+                    </div>
+                    <div class="tab-pane fade" id="identity-server-content-3" role="tabpanel" aria-labelledby="identity-server-3" tabindex="0">
+                        <p>Identity Server 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel error debitis sequi laboriosam? Ea aliquid nobis reprehenderit possimus incidunt? Eum, corporis tempora! Repudiandae excepturi assumenda aliquid eum eveniet reiciendis enim.</p>
                     </div>
                 </div>
 
-                <div class="col-sm-10 p-3">
-                    <h3>Identity Server</h3>
-
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active" id="identity-server-content-1" role="tabpanel" aria-labelledby="identity-server-1" tabindex="0">
-                          <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
-                        </div>
-                        <div class="tab-pane fade" id="identity-server-content-2" role="tabpanel" aria-labelledby="identity-server-2" tabindex="0">
-                          <p>Identity Server 2  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aliquam. Nisi odit debitis ea quaerat quod! Possimus vitae voluptatum nemo natus cupiditate quod pariatur eligendi illo, mollitia ipsum doloribus at?</p>
-                        </div>
-                        <div class="tab-pane fade" id="identity-server-content-3" role="tabpanel" aria-labelledby="identity-server-3" tabindex="0">
-                            <p>Identity Server 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel error debitis sequi laboriosam? Ea aliquid nobis reprehenderit possimus incidunt? Eum, corporis tempora! Repudiandae excepturi assumenda aliquid eum eveniet reiciendis enim.</p>
-                        </div>
-                    </div>
-
-                </div>
             </div>
-           </div>
-        </section>
-
-    </div>
-
+        </div>
+        </div>
+    </section>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
