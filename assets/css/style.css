@@ -39,3 +39,20 @@ body{
   .breadcumb .hover-item:hover{
     color: tomato;
   }
+
+  .font-16{
+    font-size: 16px;
+  }
+
+  .font-18{
+    font-size: 18px;
+  }
+
+  .g-20{
+    margin-bottom: 20px;
+    margin-left: 5px;
+  }
+
+  li:hover .font-18{
+    background-color: tomato;
+  }
