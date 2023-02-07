@@ -48,11 +48,13 @@ body{
     font-size: 18px;
   }
 
-  .g-20{
-    margin-bottom: 20px;
-    margin-left: 5px;
+  .pl-5{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
-  li:hover .font-18{
+  .pl-5:hover{
     background-color: tomato;
   }
