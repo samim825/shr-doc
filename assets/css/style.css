@@ -14,6 +14,7 @@ body {
   content: ">";
   color: white;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 a {
@@ -69,4 +70,16 @@ a:hover .equal-height-width {
 .nav-pills .show > .nav-link {
   background-color: whitesmoke !important;
   width: 100%;
+}
+
+.tab-pane p{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ .tab-content h5{
+  margin-bottom: 30px;
+}
+
+.text-silver{
+  color: #C0C0C0;
 }
