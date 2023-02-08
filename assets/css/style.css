@@ -83,3 +83,12 @@ a:hover .equal-height-width {
 .text-silver{
   color: #C0C0C0;
 }
+
+.padding-top-180{
+
+  padding-top: 180px;
+}
+
+.tab-content{
+  padding-left: 30px;
+}

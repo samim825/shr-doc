@@ -15,28 +15,31 @@
 </head>
 
 <body>
-  <section>
-        <div class="container-fluid">
-            <section class="container p-4">
-                <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
-            </section>
-        </div>
-    </section>
-    <section class="container-fluid bg-dark">
-        <div class="container">
-                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                    <ol class="breadcrumb navbar navbar-expand-sm pt-3 pb-3">
-                        <li class="breadcrumb-item fs-5"><a class="text-white nav-item hover-item" href="index.html">Home</a></li>
-                        <li class="fs-5 text-silver" aria-current="page">Identity Server</li>
+    <header class="fixed-top">
+        <section>
+            <div class="container-fluid bg-light-subtle">
+                <section class="container p-4">
+                    <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
+                </section>
+            </div>
+        </section>
+        <section class="container-fluid bg-dark">
+            <div class="container">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb navbar navbar-expand-sm pt-3 pb-3">
+                            <li class="breadcrumb-item fs-5"><a class="text-white nav-item hover-item" href="index.html">Home</a></li>
+                            <li class="fs-5 text-silver" aria-current="page">Identity Server</li>
                     </nav>
-        </div>
-    </section>
-    <section class="container-fluid">
+            </div>
+        </section>
+    </header>
+
+    <main class="container-fluid padding-top-180">
         <div class="container">
         <div class="row">
-            <div class="col-sm-3 p-0">
+            <aside class="col-sm-3 p-0 h-25">
 
-                    <nav class="navbar">
+                    <nav class="navbar overflow-y-scroll">
                         <ul class="navbar-nav nav-pills w-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Setup & configure Terminology Server Setup </a></li>
                             <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Setup & configure Terminology Server Setup & configure Terminology Server</a></li>
@@ -55,10 +58,15 @@
                             <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
                             <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
                             <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-3" data-bs-toggle="pill" href="#identity-server-content-3" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Identity Server 3</a></li>
+                            <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item font-18"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
                             
                         </ul>
                     </nav>
-            </div>
+            </aside>
 
             <div class="col-sm-9 p-3">
                 <div class="tab-content" id="v-pills-tabContent">
@@ -82,7 +90,7 @@
             </div>
         </div>
         </div>
-    </section>
+    </main>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
