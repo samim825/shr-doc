@@ -15,35 +15,89 @@
 </head>
 
 <body>
-    <section>
-        <div class="container-fluid">
-            <section class="container p-4">
-                <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
-            </section>
-        </div>
-    </section>
-    <section class="container-fluid bg-dark">
+    <header class="fixed-top">
+        <section>
+            <div class="container-fluid bg-light-subtle">
+                <section class="container p-4">
+                    <h3 class="text-tomato">Health Data Architecture (HDA)</h3>
+                </section>
+            </div>
+        </section>
+        <section class="container-fluid bg-dark">
+            <div class="container">
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb navbar navbar-expand-sm pt-3 pb-3">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="text-silver" aria-current="page">HealthId Server</li>
+                    </nav>
+            </div>
+        </section>
+    </header>
+
+    <main class="container-fluid padding-top-180">
         <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb navbar navbar-expand-sm pt-3 pb-3">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="text-silver" aria-current="page">Free Shr</li>
-                </nav>
-        </div>
-    </section>
-
-    <section class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <aside class="col-sm-3 p-0 h-25">
 
-            </div>
-            <div class="col-sm-9">
-                <h3>Free SHR</h3>
+                    <nav class="navbar overflow-y-scroll scroll-div">
+                        <ul class="navbar-nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Setup & configure Terminology Server Setup & configure Terminology Server</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Setup & configure Terminology Server Setup & configure Terminology Server</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-3" data-bs-toggle="pill" href="#identity-server-content-3" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Setup & configure Terminology Server Setup</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-3" data-bs-toggle="pill" href="#identity-server-content-3" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Identity Server 3</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-3" data-bs-toggle="pill" href="#identity-server-content-3" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Identity Server 3</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-3" data-bs-toggle="pill" href="#identity-server-content-3" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Identity Server 3</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Identity Server 2</a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Identity Server 1 </a></li>
+                            
+                        </ul>
+                    </nav>
+            </aside>
+
+            <div class="col-sm-9 p-3">
+                <div class="tab-content" id="v-pills-tabContent">
+
+                    <div class="tab-pane fade show active" id="identity-server-content-1" role="tabpanel" aria-labelledby="identity-server-1" tabindex="0">
+                        <h5>How to setup DataSense on Windows</h5>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
+                        <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quia. Corrupti, blanditiis. Repudiandae temporibus eligendi, atque praesentium magni harum obcaecati, dolorum unde impedit quos debitis? Praesentium deleniti iure ab eaque!</p>
+                    </div>
+                    <div class="tab-pane fade" id="identity-server-content-2" role="tabpanel" aria-labelledby="identity-server-2" tabindex="0">
+                        <h5>How to setup DataSense on Windows</h5>
+                        <p>Identity Server 2  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aliquam. Nisi odit debitis ea quaerat quod! Possimus vitae voluptatum nemo natus cupiditate quod pariatur eligendi illo, mollitia ipsum doloribus at?</p>
+                    </div>
+                    <div class="tab-pane fade" id="identity-server-content-3" role="tabpanel" aria-labelledby="identity-server-3" tabindex="0">
+                        <h5>How to setup DataSense on Windows</h5>
+                        <p>Identity Server 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel error debitis sequi laboriosam? Ea aliquid nobis reprehenderit possimus incidunt? Eum, corporis tempora! Repudiandae excepturi assumenda aliquid eum eveniet reiciendis enim.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </section>
-
-    <script src="assets/js/bootstrap.min.js"></script>
+        </div>
+    </main>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -114,3 +114,13 @@ a:hover .equal-height-width {
 .breadcrumb:hover a{
   color: #c0c0c0;
 }
+
+footer{
+  background-color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+.card{
+  margin: 20px;
+}

@@ -41,7 +41,7 @@
 
                     <nav class="navbar overflow-y-scroll scroll-div">
                         <ul class="navbar-nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-1" data-bs-toggle="pill" href="#identity-server-content-1" role="tab" aria-controls="identity-server-content-1" aria-selected="true">Setup & configure Terminology Server Setup </a></li>
+                            <li class="nav-item"><a class="text-truncate nav-link" id="userRolesAndTheirDetails" data-bs-toggle="pill" href="#userRolesAndTheirDetailsContent" role="tab" aria-controls="userRolesAndTheirDetailsContent" aria-selected="true">User Roles and their details </a></li>
                             <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Setup & configure Terminology Server Setup & configure Terminology Server</a></li>
                             <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-2" data-bs-toggle="pill" href="#identity-server-content-2" role="tab" aria-controls="identity-server-content-2" aria-selected="false">Setup & configure Terminology Server Setup & configure Terminology Server</a></li>
                             <li class="nav-item"><a class="text-truncate nav-link" id="identity-server-3" data-bs-toggle="pill" href="#identity-server-content-3" role="tab" aria-controls="identity-server-content-3" aria-selected="false">Setup & configure Terminology Server Setup</a></li>
@@ -70,7 +70,211 @@
 
             <div class="col-sm-9 p-3">
                 <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="identity-server-content-1" role="tabpanel" aria-labelledby="identity-server-1" tabindex="0">
+
+                    <div class="tab-pane fade  show active" id="userRolesAndTheirDetailsContent" role="tabpanel" aria-labelledby="userRolesAndTheirDetails" tabindex="0">
+                        <h5>User Roles and their details</h5>
+                        <!-- <p>Identity Server 2  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, aliquam. Nisi odit debitis ea quaerat quod! Possimus vitae voluptatum nemo natus cupiditate quod pariatur eligendi illo, mollitia ipsum doloribus at?</p> -->
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Role</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Facility Admin</td>
+                                    <td>
+                                        <ul>
+                                            <li>Creating a New Patient</li>
+                                            <li>Find Patient by HealthId</li>
+                                            <li>Find all Patients by search query</li>
+                                            <li>Updating Patient with HealthId</li>
+                                            <li>Find all Patients by Catchment</li>
+                                            <li>Find all Patients using updated since date and last marker</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>MCI Admin</td>
+                                    <td>
+                                        <ul>
+                                            <li>Find Patient by HealthId</li>
+                                            <li>Find all Patients by search query</li>
+                                            <li>Updating Patient with HealthId</li>
+                                            <li>Find list of locations by parent</li>
+                                            <li>Find audit details of patient by healthId</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>MCI Approver</td>
+                                    <td>
+                                        <ul>
+                                            <li>Find Patient by HealthId</li>
+                                            <li>Find list of locations by parent</li>
+                                            <li>Updating Patient by HealthId</li>
+                                            <li>Find list of pending approvals for catchment</li>
+                                            <li>Find list of pending approvals details for patient</li>
+                                            <li>Accepting pending approvals for patient</li>
+                                            <li>Rejecting pending approval for patient</li>
+                                            <li>Find list for Patient duplicates for catchment</li>
+                                            <li>Merging duplicate Patients</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>SHR System Admin</td>
+                                    <td>
+                                        <ul>
+                                            <li>Generating new Health Ids for all URI</li>
+                                            <li>Generating new Health ids for block URI</li>
+                                            <li>Generating new Health ids for Organisation</li>
+                                            <li>Assigning next block for MCI</li>
+                                            <li>Marking Health Id as used</li>
+                                            <li>Checking availability of Health Id</li>
+                                            <li>Find Patient by HealthId</li>
+                                            <li>Find All Encounters of patient</li>
+                                            <li>Find an Encounter for a patient</li>
+                                            <li>Find all Patients using updated since date and last marker</li>
+                                            <li>Find all Patients by Catchment</li>
+                                            <li>Find all Encounters for Facility in Catchment</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Provider</td>
+                                    <td>
+                                        <ul>
+                                            <li>Creating a New Patient</li>
+                                            <li>Find Patient by HealthId</li>
+                                            <li>Find all Patients by search query</li>
+                                            <li>Updating Patient with HealthId</li>
+                                            <li>Find all Patient by Catchment</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>SHR Provider</td>
+                                    <td>
+                                        <ul>
+                                            <li>Create Encounter for Patient</li>
+                                            <li>Update Encounter for Patient</li>
+                                            <li>Find Encounter for Patient</li>
+                                            <li>Find all Encounter of Patient</li>
+                                            <li>Find all Encounter for Facility</li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>SHR Patient</td>
+                                    <td>
+                                        <ul>
+                                            <li>Find all Encounters of patient</li>
+                                            <li>Find an Encounter for a single patient with healthId</li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>
+                                        <ul>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="identity-server-content-1" role="tabpanel" aria-labelledby="identity-server-1" tabindex="0">
                         <h5>How to setup DataSense on Windows</h5>
                         <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
                         <p>Identity Server 1   Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti distinctio accusantium ducimus a, voluptatem ratione adipisci ullam rem obcaecati libero natus sapiente. Quae rem amet dolorum unde voluptate. Ea, vel.</p>
