@@ -50,13 +50,13 @@ a:hover .equal-height-width {
 .navbar-nav {
   width: 99%;
 }
-.nav-pills .nav-link {
+.nav-pills .nav-link, .dropdown li {
   width: 100%;
   padding: 10px 20px;
   border-bottom: 1px;
 }
 
-.nav-pills li{
+.nav-pills li, .dropdown li{
   font-size: 18px;
 }
 .navbar-nav li:hover {
@@ -143,3 +143,6 @@ footer{
   width: 100%;
 }
 
+.show{
+  border:none;
+}
