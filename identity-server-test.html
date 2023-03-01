@@ -46,46 +46,38 @@
                      
                         <ul class="navbar-nav nav-pills dropdown" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 
-                            <div class="btn-group">
-                                <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                                  Clickable inside
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                                  <li><a class="dropdown-item" href="#">Menu item</a></li>
-                                </ul>
-                            </div>
-
                             <div class="dropdown">
-                                <li class="dropdown-toogle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">User 
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                                        <li class="dropdown-item"><a class="text-truncate nav-link active" id="userRolesAndTheirDetails" data-bs-toggle="pill" href="#userRolesAndTheirDetailsContent" role="tab" aria-controls="userRolesAndTheirDetailsContent" aria-selected="true">User Roles and their details </a></li>
-                                        <li class="dropdown-item"><a class="text-truncate nav-link" id="createNewUser" data-bs-toggle="pill" href="#createNewUserContent" role="tab" aria-controls="createNewUserContent" aria-selected="false">Create New User</a></li>
-                                        <li class="dropdown-item"><a class="text-truncate nav-link" id="signIn" data-bs-toggle="pill" href="#signInContent" role="tab" aria-controls="singInContent" aria-selected="false">Sign In</a></li>
-                                        <li class="dropdown-item"><a class="text-truncate nav-link" id="userCreationChallengesAndPossibleSolutions" data-bs-toggle="pill" href="#userCreationChallengesAndPossibleSolutionsContent" role="tab" aria-controls="userCreationChallengesAndPossibleSolutionsContent" aria-selected="false">User Creation challenges and possible solutions</a></li>
-                                </ul>
+                                <li>
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">User</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+                                            <li class="dropdown-item"><a class="text-truncate nav-link active" id="userRolesAndTheirDetails" data-bs-toggle="pill" href="#userRolesAndTheirDetailsContent" role="tab" aria-controls="userRolesAndTheirDetailsContent" aria-selected="true">User Roles and their details </a></li>
+                                            <li class="dropdown-item"><a class="text-truncate nav-link" id="createNewUser" data-bs-toggle="pill" href="#createNewUserContent" role="tab" aria-controls="createNewUserContent" aria-selected="false">Create New User</a></li>
+                                            <li class="dropdown-item"><a class="text-truncate nav-link" id="signIn" data-bs-toggle="pill" href="#signInContent" role="tab" aria-controls="singInContent" aria-selected="false">Sign In</a></li>
+                                            <li class="dropdown-item"><a class="text-truncate nav-link" id="userCreationChallengesAndPossibleSolutions" data-bs-toggle="pill" href="#userCreationChallengesAndPossibleSolutionsContent" role="tab" aria-controls="userCreationChallengesAndPossibleSolutionsContent" aria-selected="false">User Creation challenges and possible solutions</a></li>
+                                    </ul>
                                 </li>
                             </div>
                             <div class="dropdown">
-                                <li class="dropdown-toogle" data-bs-toggle="dropdown">Location 
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="location" data-bs-toggle="pill" href="#locationContent" role="tab" aria-controls="locationContent" aria-selected="true"> Location  </a></li>
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="createNewLocation" data-bs-toggle="pill" href="#createNewLocationContent" role="tab" aria-controls="createNewLocationContent" aria-selected="false">How to create new location</a></li>
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="locationChallenges" data-bs-toggle="pill" href="#locationChallengesContent" role="tab" aria-controls="locationChallengesContent" aria-selected="false">Challenges and Possible Solutions of location </a></li>
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="locationApi" data-bs-toggle="pill" href="#locationApiContent" role="tab" aria-controls="locationApiContent" aria-selected="false">Location API</a></li>        
-                                </ul>
+                                <li>
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">Location</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="location" data-bs-toggle="pill" href="#locationContent" role="tab" aria-controls="locationContent" aria-selected="true"> Location  </a></li>
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="createNewLocation" data-bs-toggle="pill" href="#createNewLocationContent" role="tab" aria-controls="createNewLocationContent" aria-selected="false">How to create new location</a></li>
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="locationChallenges" data-bs-toggle="pill" href="#locationChallengesContent" role="tab" aria-controls="locationChallengesContent" aria-selected="false">Challenges and Possible Solutions of location </a></li>
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="locationApi" data-bs-toggle="pill" href="#locationApiContent" role="tab" aria-controls="locationApiContent" aria-selected="false">Location API</a></li>        
+                                    </ul>
                                 </li>
                             </div>
 
                             <div class="dropdown">
-                                <li class="dropdown-toogle" data-bs-toggle="dropdown">Facility 
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="facilities" data-bs-toggle="pill" href="#facilitiesContent" role="tab" aria-controls="facilitiesContent" aria-selected="false">Facilities</a></li>
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="createNewFacility" data-bs-toggle="pill" href="#createNewFacilityContent" role="tab" aria-controls="createNewFacilityContent" aria-selected="false">How to create new Facility</a></li>
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="facilityChallenges" data-bs-toggle="pill" href="#facilityChallengesContent" role="tab" aria-controls="facilityChallengesContent" aria-selected="false">Challenges and Possible Solutions of facilities </a></li>
-                                    <li class="nav-item"><a class="text-truncate nav-link" id="facilitiesApi" data-bs-toggle="pill" href="#facilitiesApiContent" role="tab" aria-controls="facilitiesApiContent" aria-selected="false">Facilities API</a></li>        
-                                </ul>
+                                <li>
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">Facility</a>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="facilities" data-bs-toggle="pill" href="#facilitiesContent" role="tab" aria-controls="facilitiesContent" aria-selected="false">Facilities</a></li>
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="createNewFacility" data-bs-toggle="pill" href="#createNewFacilityContent" role="tab" aria-controls="createNewFacilityContent" aria-selected="false">How to create new Facility</a></li>
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="facilityChallenges" data-bs-toggle="pill" href="#facilityChallengesContent" role="tab" aria-controls="facilityChallengesContent" aria-selected="false">Challenges and Possible Solutions of facilities </a></li>
+                                        <li class="nav-item"><a class="text-truncate nav-link" id="facilitiesApi" data-bs-toggle="pill" href="#facilitiesApiContent" role="tab" aria-controls="facilitiesApiContent" aria-selected="false">Facilities API</a></li>        
+                                    </ul>
                                 </li>
                             </div>
                         </ul>

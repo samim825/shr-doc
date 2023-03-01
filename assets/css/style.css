@@ -92,7 +92,7 @@ main {
   padding-left: 30px;
 }
 .scroll-div {
- 
+  height: 750px;
   scroll-behavior: smooth;
   position: fixed;
   width: 17%;
